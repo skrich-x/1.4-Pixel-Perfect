@@ -3,17 +3,35 @@ body{
 }
 
 header{
+  background-color:#0E70B1;
+  width:1300px;
+  height:523px;
 
 }
 
 content{
+  width:1300px;
+  height:1008px;
 
 }
 
+article{
+  width:861px;
+  height:1008;
+}
+
 sidebar{
+  width:431;
+  height:1008;
 
 }
 
 footer{
-  
+  width:1300px;
+  height:573px;
+
+}
+
+.bottomBorder{
+  background-color:#043450;
 }
