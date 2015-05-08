@@ -1,4 +1,7 @@
+
 body{
+  width:1300px;
+  height: 2104px;
 
 }
 
@@ -12,7 +15,12 @@ header{
 content{
   width:1300px;
   height:1008px;
+  position:inline-block;
+}
 
+h1{
+  font-family: Oswald;
+  font-size:60px;
 }
 
 article{
@@ -27,11 +35,36 @@ sidebar{
 }
 
 footer{
+  padding:none;
   width:1300px;
   height:573px;
 
 }
 
+.bottompics li{
+  height:330px;
+  display:inline-block;
+}
+/*
+.surf{
+
+  width:324px;
+}
+.beer{
+
+  width:325px;
+}
+
+.zach{
+
+  width:326px;
+}
+
+.liquor{
+
+  width:325px;
+}
+*/
 .bottomBorder{
   background-color:#043450;
 }
