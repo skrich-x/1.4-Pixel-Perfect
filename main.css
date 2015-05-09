@@ -12,30 +12,36 @@ header{
 
 }
 
-content{
+sesction{
   width:1300px;
   height:1008px;
-  position:inline;
 }
 
 h1{
   font-family: Oswald;
   font-size:60px;
   position: center;
-  font-family:white;
+  color: white;
 }
 
 article{
-  float:left;
+
+  display:inline-block;
   width:861px;
-  height:1008;
+  height:1008px;
+  font-family:Open Sans;
 }
 
-sidebar{
-  float:right;
-  width:431;
-  height:1008;
+h2{
+  font-size:60px;
+  font-family:Oswald;
 
+}
+sidebar{
+  display: inline-block;
+  width:431px;
+  height:1008px;
+  font-family:Open Sans;
 }
 
 footer{
