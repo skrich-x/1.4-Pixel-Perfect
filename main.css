@@ -2,30 +2,31 @@
 body{
   width:1300px;
   height: 2104px;
-
 }
 
 header{
   background-color:#0E70B1;
   width:1300px;
   height:523px;
-
 }
 
-sesction{
+section{
   width:1300px;
   height:1008px;
+  border-bottom: 1px #E1E7EA;
 }
 
 h1{
   font-family: Oswald;
   font-size:60px;
-  position: center;
   color: white;
+  display-style:table-cell;
+  vertical-align:middle;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 article{
-
   display:inline-block;
   width:861px;
   height:1008px;
@@ -35,8 +36,10 @@ article{
 h2{
   font-size:60px;
   font-family:Oswald;
+  color:#043450;
 
 }
+
 sidebar{
   display: inline-block;
   width:431px;
@@ -44,11 +47,31 @@ sidebar{
   font-family:Open Sans;
 }
 
+h3{
+  font-family:Oswald
+  color:#026EAE;
+}
+.sbtop{
+  padding-top: 83px;
+  height:270px;
+
+}
+
+.sbbottom{
+  height:415px;
+  padding-top:51px;
+
+}
+sidebar p{
+  width:300px;
+}
 footer{
   padding:none;
   width:1300px;
   height:573px;
-
+}
+# mpp{
+  color:#043450;
 }
 
 .bottompics li{
@@ -56,29 +79,17 @@ footer{
   height:330px;
   display:inline-block;
 }
-/*
-.surf{
 
-  width:324px;
-}
-.beer{
-
-  width:325px;
+#navitems{
+  float:right;
 }
 
-.zach{
-
-  width:326px;
-}
-
-.liquor{
-
-  width:325px;
-}
-*/
 .bottomBorder{
   height: 97px;
   padding:none;
   margin-bottom: 0;
   background-color:#043450;
+}
+.bottomBorder ul, span{
+  color:#A2B3BE;
 }
