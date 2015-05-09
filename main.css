@@ -15,20 +15,24 @@ header{
 content{
   width:1300px;
   height:1008px;
-  position:inline-block;
+  position:inline;
 }
 
 h1{
   font-family: Oswald;
   font-size:60px;
+  position: center;
+  font-family:white;
 }
 
 article{
+  float:left;
   width:861px;
   height:1008;
 }
 
 sidebar{
+  float:right;
   width:431;
   height:1008;
 
@@ -42,6 +46,7 @@ footer{
 }
 
 .bottompics li{
+  padding:none;
   height:330px;
   display:inline-block;
 }
@@ -66,5 +71,8 @@ footer{
 }
 */
 .bottomBorder{
+  height: 97px;
+  padding:none;
+  margin-bottom: 0;
   background-color:#043450;
 }
