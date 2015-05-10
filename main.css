@@ -1,14 +1,11 @@
 
+
 body{
   width:1300px;
   height: 2104px;
 
 }
-/*.center{
-  width:990px;
-  margin: 0 auto;
-}
-*/
+
 header{
   background-color:#0E70B1;
   width:1300px;
@@ -17,6 +14,7 @@ header{
 
 header nav{
   float:right;
+  padding-top: 10px
 }
 
 header nav img{
@@ -66,12 +64,19 @@ h6{
   margin-left:auto;
   margin-right:auto;
 }
+
 article{
   display:inline-block;
-  width:861px;
+  width:712px;
   height:1008px;
   font-family:Open Sans;
-  padding:none;
+  padding-left:155px;
+  float:left;
+
+}
+
+.main{
+  display:inline-block;
 }
 
 
@@ -88,7 +93,7 @@ h2{
 
 }
 
-sidebar{
+aside{
   display: inline-block;
   width:278px;
   height:1008px;
@@ -96,14 +101,34 @@ sidebar{
 }
 
 h3{
-  font-family:Oswald
+  font-family:Oswald;
   color:#026EAE;
 }
 
 .sbtop{
   height:270px;
+  padding-top:83px;
+}
+.sbtop img{
+  margin: 0 auto;  
 }
 
+
+.sbtop h3{
+  text-align:center;
+}
+
+.sbtop img{
+  border-radius: 50%;
+  display:inline-block;
+  margin: 0 auto;
+  }
+
+.sbtop ul,
+.sbtop li {
+  display:inline block;
+  text-align:center;
+}
 .sbmiddle{
   height: 323px;
 
@@ -118,8 +143,10 @@ footer{
   height:573px;
 }
 
-# mpp{
+.mpp h2{
   color:#043450;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .bottompics li{
@@ -145,4 +172,8 @@ footer{
 .bottomBorder ul,
 .bottomBorder span{
   color:#A2B3BE;
+}
+
+.bottomBorder img{
+  vertical-align: middle;
 }
