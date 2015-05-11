@@ -1,16 +1,28 @@
 
-
+*{
+  -webkit-box-sizing: border-box;
+}
 body{
   width:1300px;
   height: 2104px;
 }
 
 header{
+  background-image:url("img/headercrop.png");
   width:1300px;
   height:523px;
-  background-color:#0F74B0;
-}
+  position:relative;
 
+}
+.transparent-overlay {
+ background-color: rgba(15, 92, 156, 0.9);
+ /*above is color for header, can change if used elsewhere */
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
 
 header nav{
   float:right;
@@ -30,6 +42,9 @@ header nav li{
 .center{
   width:990px;
   margin:0 auto;
+  position:absolute;
+  top:6px;
+  left:137px;
 }
 
 .navleft{
@@ -72,25 +87,35 @@ h6{
 
 .bioLine img{
   border-radius: 50%;
+  text-align: center;
+}
+.bioLine{
+  vertical-align: middle;
 }
 article{
   display:inline-block;
   line-height: 1.5;
-  width:712px;
+  width:869px;
   height:938px;
   font-family:Open Sans;
   padding-left:155px;
   float:left;
   padding-top: 70px;
+  padding-right: 84px;
 }
 
 article h2{
-   line-height:80px
+  font-size:56px;
+}
+.main p{
+  padding-top: 20px;
+  padding-bottom:20px;
 }
 
-
 .woah{
-  padding:17px;
+  padding-top:20px;
+  padding-left:17px;
+  padding-bottom: 20px;
 }
 
 .readshare li{
@@ -113,7 +138,7 @@ article h2{
 }
 
 .readcomments{
-  width:125px;
+  width:158px;
 }
 
 .readlater{
@@ -121,7 +146,7 @@ article h2{
 }
 
 .sharethis{
-  width:121px;
+  width:154px;
 }
 
 .main{
@@ -156,6 +181,7 @@ h3{
 }
 
 .sbtop{
+  postion:relative;
   height:270px;
   padding-top:83px;
 }
@@ -179,9 +205,10 @@ h3{
 
 .sbtop ul,
 .sbtop li {
-  display:inline block;
+  display:inline-block;
   text-align:center;
 }
+
 .sbmiddle{
   height: 323px;
 
@@ -205,10 +232,11 @@ hr{
 .mpp{
   color:#043450;
   text-align: center;
-  height:146px;
+  height:144px;
+  font-size: 56px;
   }
 
-.bottompics li{
+.bottompics{
   padding:none;
   height:330px;
   display:inline-block;
@@ -218,17 +246,26 @@ hr{
   height:144px;
 }
 
-.bottompics{
-    opacity: .5;
+  .fadeout{
+    display: inline-block;
+    position: relative;
     transition: opacity .5s ease-in-out;
-    color: rbga(49,71,135,.5);
+  }
 
-}
+  .fadeout::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(15, 92, 156, 0.9);
+  }
 
-.bottompics li:hover {
-    opacity: 0;
-}
-
+  .fadeout:hover::after{
+      background-color: rgba(0, 0, 0, 0);
+  }
 
 /*---- BottomBorder---*/
 
