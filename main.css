@@ -6,7 +6,9 @@ body{
   width:1300px;
   height: 2104px;
 }
-
+a{
+  decoration:none;
+}
 header{
   background-image:url("img/headercrop.png");
   width:1300px;
@@ -15,7 +17,7 @@ header{
 
 }
 .transparent-overlay {
- background-color: rgba(15, 92, 156, 0.9);
+ background-color: rgba(15, 92, 156, 0.75);
  /*above is color for header, can change if used elsewhere */
  position: absolute;
  top: 0;
@@ -66,7 +68,9 @@ section{
   width:1300px;
   height:1008px;
 }
-
+a{
+  color:#A2B3BE;
+}
 h1{
   font-family: Oswald;
   font-size:78px;
@@ -85,13 +89,46 @@ h6{
   margin-right:auto;
 }
 
-.bioLine img{
-  border-radius: 50%;
-  text-align: center;
-}
 .bioLine{
   vertical-align: middle;
 }
+
+.bioLine img{
+  border-radius: 50%;
+  text-align: center;
+  height:22px;
+  width:22px;
+}
+
+/*.fadeoutST{
+  left: 50%;
+  top: 50%;
+  margin-left: -42px;
+  margin-top: -42px;
+  width:84px;
+  height:84px;
+  border-radius:50%;
+  display: inline-block;
+  position: relative;
+}
+
+.fadeoutST::after {
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(15, 92, 156, 0.5);
+
+}
+
+.fadeoutST:hover::after{
+    background-color: rgba(0, 0, 0, 0);
+}
+*/
 article{
   display:inline-block;
   line-height: 1.5;
@@ -107,6 +144,8 @@ article{
 article h2{
   font-size:56px;
 }
+
+
 .main p{
   padding-top: 20px;
   padding-bottom:20px;
@@ -161,7 +200,7 @@ h4{
 }
 
 h2{
-  font-size:78px;
+  font-size:56px;
   font-family:Oswald;
   color:#043450;
 }
@@ -192,15 +231,45 @@ h3{
 }
 
 .sbtop img{
-  border-radius: 50%;
-  width: 84px;
+   border-radius: 50%;
+   width: 84px;
    height:84px;
    position: relative;
    left: 50%;
    top: 50%;
    margin-left: -42px;
    margin-top: -42px;
+
 }
+.fadeoutST{
+  left: 50%;
+  top: 50%;
+  margin-left: -42px;
+  margin-top: -42px;
+  width:84px;
+  height:84px;
+  border-radius:50%;
+  display: inline-block;
+  position: relative;
+}
+
+.fadeoutST::after {
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(15, 92, 156, 0.5);
+
+}
+
+.fadeoutST:hover::after{
+    background-color: rgba(0, 0, 0, 0);
+}
+
 
 
 .sbtop ul,
@@ -211,10 +280,18 @@ h3{
 
 .sbmiddle{
   height: 323px;
+}
+.sbmiddle img{
+  width:278px;
+  height:300px;
+}
 
+figcaption{
+  float:right;
 }
 .sbbottom{
   height:415px;
+  line-height: 1;
 }
 /*-----footer----*/
 
@@ -236,22 +313,27 @@ hr{
   font-size: 56px;
   }
 
+
+
 .bottompics{
   padding:none;
   height:330px;
   display:inline-block;
   vertical-align: text-bottom;
+  transition-timing-function: opacity 1s ease-in;
+
 }
 .hgroup2{
+  padding-top:37px;
   height:144px;
 }
 
   .fadeout{
+    transition-timing-function: opacity 1s ease-in-out;
     display: inline-block;
     position: relative;
-    transition: opacity .5s ease-in-out;
-  }
 
+}
   .fadeout::after {
     content: "";
     display: inline-block;
@@ -260,11 +342,13 @@ hr{
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(15, 92, 156, 0.9);
+    background-color: rgba(15, 92, 156, 0.5);
+
   }
 
   .fadeout:hover::after{
       background-color: rgba(0, 0, 0, 0);
+
   }
 
 /*---- BottomBorder---*/
