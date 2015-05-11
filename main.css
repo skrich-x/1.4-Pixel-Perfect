@@ -3,14 +3,14 @@
 body{
   width:1300px;
   height: 2104px;
-
 }
 
 header{
-  background-color:#0E70B1;
   width:1300px;
   height:523px;
+  background-color:#0F74B0;
 }
+
 
 header nav{
   float:right;
@@ -35,9 +35,11 @@ header nav li{
 .navleft{
   display: inline-block;
 }
+
 .navleft img{
   vertical-align: middle;
 }
+
 .hgroup{
   position: relative;
   top: 200px;
@@ -58,6 +60,7 @@ h1{
   margin-right:auto;
   text-align: center;
 }
+
 h6{
   display:table;
   font-family:Oswald;
@@ -67,14 +70,27 @@ h6{
   margin-right:auto;
 }
 
+.bioLine img{
+  border-radius: 50%;
+}
 article{
   display:inline-block;
   line-height: 1.5;
   width:712px;
-  height:1008px;
+  height:938px;
   font-family:Open Sans;
   padding-left:155px;
   float:left;
+  padding-top: 70px;
+}
+
+article h2{
+   line-height:80px
+}
+
+
+.woah{
+  padding:17px;
 }
 
 .readshare li{
@@ -120,11 +136,12 @@ h4{
 }
 
 h2{
-  font-size:56px;
+  font-size:78px;
   font-family:Oswald;
   color:#043450;
-
 }
+
+
 /*-----ASIDE------*/
 aside{
   display: inline-block;
@@ -181,28 +198,34 @@ footer{
 }
 
 hr{
-  height:1px;
+  margin-top:0em;
+  margin-bottom:0em;
 }
+
 .mpp{
   color:#043450;
   text-align: center;
+  height:146px;
   }
 
 .bottompics li{
   padding:none;
   height:330px;
   display:inline-block;
+  vertical-align: text-bottom;
+}
+.hgroup2{
+  height:144px;
 }
 
-
-.fadeOut{
+.bottompics{
     opacity: .5;
     transition: opacity .5s ease-in-out;
     color: rbga(49,71,135,.5);
 
 }
 
-.fadeOut:hover {
+.bottompics li:hover {
     opacity: 0;
 }
 
