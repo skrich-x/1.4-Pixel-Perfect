@@ -9,6 +9,7 @@ body{
 a{
   decoration:none;
 }
+
 header{
   background-image:url("img/headercrop.png");
   width:1300px;
@@ -18,7 +19,7 @@ header{
 }
 .transparent-overlay {
  background-color: rgba(15, 92, 156, 0.75);
- /*above is color for header, can change if used elsewhere */
+ /*above is color for header */
  position: absolute;
  top: 0;
  left: 0;
@@ -42,6 +43,7 @@ header nav li{
 
 
 .center{
+  font-family: Oswald;
   width:990px;
   margin:0 auto;
   position:absolute;
@@ -263,6 +265,7 @@ h3{
   top: 0;
   bottom: 0;
   background-color: rgba(15, 92, 156, 0.5);
+  transition: all .5s ease-in-out;
 
 }
 
@@ -329,11 +332,12 @@ hr{
 }
 
   .fadeout{
-    transition-timing-function: opacity 1s ease-in-out;
+
     display: inline-block;
     position: relative;
 
 }
+
   .fadeout::after {
     content: "";
     display: inline-block;
@@ -343,10 +347,10 @@ hr{
     top: 0;
     bottom: 0;
     background-color: rgba(15, 92, 156, 0.5);
-
+    transition: all .5s ease-in-out;
   }
 
-  .fadeout:hover::after{
+   .fadeout:hover::after{
       background-color: rgba(0, 0, 0, 0);
 
   }
@@ -355,6 +359,7 @@ hr{
 
 #navitems{
   float:right;
+  font-family: Oswald;
 }
 
 #navitems li{
@@ -372,6 +377,8 @@ hr{
 .bottomBorder ul,
 .bottomBorder span{
   color:#A2B3BE;
+  font-family: Open sans;
+  font-size: 14px;
 }
 
 .bottomBorder img{
