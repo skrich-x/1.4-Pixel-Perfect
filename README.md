@@ -4,9 +4,9 @@ This project was completed during the first week of The Iron Yard Academy. The o
 
 ##Technologies and Tools:
 
-*Semantic HTML & CSS for styling and positioning.
-*CSS3 Transitions & hover states.
+* Semantic HTML & CSS for styling and positioning.
+* CSS3 Transitions & hover states.
 
 ##Libraries and Dependencies:
-*Google Fonts
-*Font Awesome
+* Google Fonts
+* Font Awesome
