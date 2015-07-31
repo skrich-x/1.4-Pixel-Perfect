@@ -1,5 +1,8 @@
 # Pixel-Perfect
 
+## Demo
+http://skrich-x.github.io/1.4-Pixel-Perfect/
+
 This project was completed during the first week of The Iron Yard Academy. The objective included using standard HTML and CSS to create a PSD mockup from a .png example.
 
 ##Technologies and Tools:
